@@ -12,14 +12,14 @@
         <Rectangle Fill="Orange" Width="200" Height="50" Canvas.Left="80" Canvas.Top="150" Tag="platform"/>
         <Rectangle Fill="Orange" Width="200" Height="50" Canvas.Left="10" Canvas.Top="300" Tag="platform"/>
         <Rectangle Fill="Orange" Width="200" Height="50" Canvas.Left="170" Canvas.Top="450" Tag="platform"/>
-        <Rectangle Fill="Green" Width="400" Height="10" Canvas.Left="0" Canvas.Top="580"/>
+        <Rectangle Fill="Green" Width="400" Height="10" Canvas.Left="0" Canvas.Top="580" Tag="platform"/>
 
-        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="200" Canvas.Top="115" RadiusX="15" RadiusY="15"/>
-        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="208" Canvas.Top="122" RadiusX="15" RadiusY="15"/>
-        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="100" Canvas.Top="262" RadiusX="15" RadiusY="15" RenderTransformOrigin="-2.789,5.732"/>
-        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="108" Canvas.Top="269" RadiusX="15" RadiusY="15" RenderTransformOrigin="-0.643,0.752"/>
-        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="40" Canvas.Top="546" RadiusX="15" RadiusY="15" RenderTransformOrigin="0.138,0.501"/>
-        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="48" Canvas.Top="553" RadiusX="15" RadiusY="15"/>
+        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="200" Canvas.Top="115" RadiusX="15" RadiusY="15" Tag="Coin"/>
+        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="208" Canvas.Top="122" RadiusX="15" RadiusY="15" Tag="Coin"/>
+        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="100" Canvas.Top="262" RadiusX="15" RadiusY="15" RenderTransformOrigin="-2.789,5.732" Tag="Coin"/>
+        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="108" Canvas.Top="269" RadiusX="15" RadiusY="15" RenderTransformOrigin="-0.643,0.752" Tag="Coin"/>
+        <Rectangle Fill="Gold" Width="30" Height="30" Canvas.Left="40" Canvas.Top="546" RadiusX="15" RadiusY="15" RenderTransformOrigin="0.138,0.501" Tag="Coin"/>
+        <Rectangle Fill="White" Width="14" Height="16" Canvas.Left="48" Canvas.Top="553" RadiusX="15" RadiusY="15" Tag="Coin"/>
         <Rectangle Fill="Purple" Width="20" Height="50" Canvas.Left="348" Canvas.Top="528" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="10" RadiusY="20"/>
     </Canvas>
 </Window>

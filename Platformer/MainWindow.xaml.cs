@@ -26,6 +26,8 @@ namespace Platformer
         private bool bLeft;
         private bool bRight;
         private int drop = 10;
+        private int speed = 5;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -40,19 +42,45 @@ namespace Platformer
             double y = Canvas.GetTop(player);
             Canvas.SetTop(player, y + drop);
             Rect playerCollision = new Rect(Canvas.GetLeft(player), y, player.Width, player.Height);
+            Rectangle rectangleForRemove = null;
             foreach (var rect in MyCanvas.Children.OfType<Rectangle>())
             {
                 if (rect.Tag != null)
                 {
+                    Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
                     if ((string)rect.Tag == "platform")
                     {
-                        Rect rectCollision = new Rect(Canvas.GetLeft(rect), Canvas.GetTop(rect), rect.Width, rect.Height);
+  
                         if (playerCollision.IntersectsWith(rectCollision))
                         {
                             drop = 0;
+                            Canvas.SetTop(player, Canvas.GetTop(rect) - player.Height);
+                        }
+                        else
+                        {
+                            drop = 10;
+                        }
+                    }
+                    if ((string)rect.Tag == "coin")
+                    {
+                        if (playerCollision.IntersectsWith(rectCollision))
+                        {
+                            rectangleForRemove = rect;
                         }
                     }
                 }
+            }
+            if (rectangleForRemove != null)
+            {
+                MyCanvas.Children.Remove(rectangleForRemove);
+            }
+            if (bLeft)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) - speed);
+            }
+            if (bRight)
+            {
+                Canvas.SetLeft(player, Canvas.GetLeft(player) + speed);
             }
         }
 
