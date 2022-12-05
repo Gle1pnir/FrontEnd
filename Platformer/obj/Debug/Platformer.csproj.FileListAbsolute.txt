@@ -1,0 +1,16 @@
+C:\Users\vasil\source\repos\FrontEnd\Platformer\bin\Debug\Platformer.exe.config
+C:\Users\vasil\source\repos\FrontEnd\Platformer\bin\Debug\Platformer.exe
+C:\Users\vasil\source\repos\FrontEnd\Platformer\bin\Debug\Platformer.pdb
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.csproj.AssemblyReference.cache
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.csproj.SuggestedBindingRedirects.cache
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\MainWindow.g.cs
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\App.g.cs
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer_MarkupCompile.cache
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer_MarkupCompile.lref
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\MainWindow.baml
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.g.resources
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.Properties.Resources.resources
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.csproj.GenerateResource.cache
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.csproj.CoreCompileInputs.cache
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.exe
+C:\Users\vasil\source\repos\FrontEnd\Platformer\obj\Debug\Platformer.pdb
